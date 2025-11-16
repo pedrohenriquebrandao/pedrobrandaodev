@@ -15,7 +15,8 @@ export default function HomePage() {
   const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
   useEffect(() => {
-    fetch("/api/contributions")
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
+    fetch(`${baseUrl}/api/contributions`)
       .then((res) => res.json())
       .then((data) => {
         const calendar =
