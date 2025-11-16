@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #161924;
     --foreground: #ededed;
   }
 }
@@ -22,5 +22,25 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-jetbrains), monospace;
 }
+
+/* Barra de rolagem personalizada */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 6px; /* deixa mais fina */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #e0e0e0; /* cor do fundo da barra */
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #3949AB; /* cor do indicador */
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #A5B4FC; /* cor ao passar o mouse */
+}
+
