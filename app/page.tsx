@@ -143,7 +143,7 @@ export default function HomePage() {
         <div className="flex flex-wrap gap-2 sm:gap-3 justify-center sm:justify-start">
           {[
             "PHP","Laravel","Javascript","MySQL","Docker","Next.js","Node.js",
-            "PostgreSQL","Tailwind CSS","React","Vue","Python","Java"
+            "PostgreSQL","Tailwind CSS","React","Vue","Python","Java","Linux"
           ].map((tech) => (
             <span
               key={tech}
