@@ -61,9 +61,8 @@ export default function HomePage() {
         />
 
         <p className="leading-relaxed text-md text-white text-bold max-w-full sm:max-w-xl text-center sm:text-left">
-          Hi, I’m Pedro Brandão! I'm a Computer Engineer currently working at <a href="https://www.primeintech.com.br/" className="text-indigo-300 underline" target="_blank">Prime In-Tech</a>,
-          developing software projects. I’m currently building an LMS (Learning Management System) designed for maker-centered learning through hands-on educational robotics,
-          as well as supporting company projects in industrial automation.
+          Hi, I’m Pedro Brandão! I'm a Computer Engineer currently at <a href="https://www.primeintech.com.br/" className="text-indigo-300 underline" target="_blank">Prime In-Tech</a>,
+          working on software development, robotics and industrial automation projects.
         </p>
       </section>
 
